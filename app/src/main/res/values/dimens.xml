@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_text_size_under_course">20sp</dimen>
+    <dimen name="button_width_under_course">250dp</dimen>
+    <dimen name="button_height_under_course">60dp</dimen>
+    <dimen name="button_margin_top_under_courses">10dp</dimen>
+    <dimen name="image_margin_top">10dp</dimen>
+    <dimen name="home_view_margin_top">10dp</dimen>
+</resources>

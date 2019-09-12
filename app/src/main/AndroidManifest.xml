@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spaikdevelopers.hp.smartlearning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/smartlearningicon2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/smartlearningicon2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".loginDemo2" />
+        <activity android:name=".registerDemo2" />
+        <activity android:name=".home" />
+        <activity android:name=".courseitem" />
+        <activity android:name=".java" />
+        <activity android:name=".PDFlistJava" />
+        <activity android:name=".viewer_pdf" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".courses_recycleview" />
+        <activity android:name=".database" />
+        <activity android:name=".viewer_video" />
+        <activity android:name=".c_programming" />
+        <activity android:name=".compiler_design" />
+        <activity android:name=".software_engineering" />
+        <activity android:name=".data_communication" />
+        <activity android:name=".PDFlistDatabase" />
+        <activity android:name=".PDFlistCprograming" />
+        <activity android:name=".PDFlistCompilerdesign" />
+        <activity android:name=".PDFlistSoftwareEngineering" />
+        <activity android:name=".PDFlistDataCommunication" />
+        <activity android:name=".adminPanel_login_activity" />
+        <activity android:name=".adminPanel_menuList_activity" />
+        <activity android:name=".adminPanel_lectureUpload_activity" />
+        <activity android:name=".adminPanel_discussionUpload_activity" />
+        <activity android:name=".viewer_lisstview_article" />
+        <activity android:name=".feedback" />
+        <activity android:name=".about_us"></activity>
+    </application>
+
+</manifest>

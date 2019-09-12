@@ -1,0 +1,94 @@
+<resources>
+    //Application name:
+    <string name="app_name">Smart Learning</string>
+
+    //About us
+    <string name="shovan_details">
+        Email: shovanpaik93@gmail.com\nPhone: +8801932302996
+    </string>
+    <string name="maruf_details">
+        Email: hbmaruf3@gmail.com\nPhone: +8801521407161
+    </string>
+
+    <string name="our_motivation">We have encountered some problem while studying, which we wanted to solve here.</string>
+    <string name="our_mission">Bangladesh is a Digital country. We want to every student will be connect to the internet. And they will learn from internet. Our app gives all opportunity to learning. Every student and public can be download and install our apps and learn more.  </string>
+
+
+
+    //Home Activity all string:
+    <string name="Course">Course\nComponents</string>
+    <string name="Profile">Profile</string>
+    <string name="Article">Article</string>
+    <string name="Share">Share</string>
+    <string name="Admin_Panel">Admin\nPanel</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Aboutus">About us</string>
+    <string name="Logout">Log out</string>
+
+
+    //Account Register all string:
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_password_at_least_6_digits">Enter password (at least 6 digits)</string>
+    <string name="user_types">User Types</string>
+    <string name="student">Student</string>
+    <string name="admin">Admin</string>
+    <string name="register">Register</string>
+    <string name="already_register_log_in">Already register? Log in.</string>
+
+
+    //Java pdf book name:
+    <string name="java_the_compleate_reference_seventh_edition_nauthor_herbert_schildt">The Compleate Reference,\nSeventh Edition.\nAuthor: Herbert Schildt</string>
+    <string name="introduction_to_java_programming_eight_edition_nauthor_y_daniel_liang">Introduction to JAVA Programming,\nEight Edition. \nAuthor: Y. Daniel Liang</string>
+    <string name="java_programming_fourth_edition_author_d_s_malik">Java Programming,\nFourth Edition.\nAuthor: D.S. Malik</string>
+
+    <string name="behrouz_a_Forouzan_datacommunication">Data Communication\nFourth Edition.\nAuthor:Behrouz A. Forouzan</string>
+    <string name="behrouz_a_Forouzan_datacommunication_solution">Data Communication Solution\nFourth Edition.\nAuthor: Behrouz A. Forouzan</string>
+
+    <string name="expert_c_programming">Expert C Programming\nFourth Edition.\nAuthor: Peter Van Der Linden</string>
+    <string name="the_complete_reference_c">The Complete Reference C\nFourth Edition.\nAuthor: Herbert Schildt</string>
+
+
+    <string name="fundamental_of_database_system">Fundamental of Database System\nSeventh Edition.\nAuthor: Elmasry</string>
+
+
+    <string name="compiler_principle">Compiler Principle</string>
+    <string name="principle_of_compiler">Principle of compiler</string>
+
+
+    //course's under button name:
+    <string name="pdf">PDF</string>
+    <string name="video_tutorial">Video Tutorial</string>
+    <string name="advice">Lecture</string>
+
+
+    //Activity title name:
+    <string name="java_activity_title">Java</string>
+    <string name="database_activity_title">Database</string>
+    <string name="c_programming_activity_title">C Programming</string>
+    <string name="compiler_design_activity_title">Compiler Design</string>
+    <string name="software_engineering_activity_title">Software Engineering</string>
+    <string name="data_communication_activity_title">Data Communication</string>
+
+
+    //PDF list Activity title name:
+    <string name="java_pdf">Java PDF</string>
+    <string name="database_pdf">Database PDF</string>
+    <string name="c_programming_pdf">C Programming PDF</string>
+    <string name="compiler_design_pdf">Compiler Design PDF</string>
+    <string name="software_engineering_pdf">Software Engineering PDF</string>
+    <string name="Data_communication_pdf">Data Communication PDF</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="adminpanel_button_name_ok">OK</string>
+    <string name="admin_panel_instruction_text">This page is only for Admin Panel\'s member. If you are a member of admin panel you enter your secret code then click \'ok\'.</string>
+    <string name="admin_panel_button_name_forLectureUpload">For Lecture Upload</string>
+    <string name="admin_panel_button_name_forDiscussionUpload">For Article Upload</string>
+    <string name="adminPanel_discussionUpload_editText_title">Title</string>
+    <string name="adminPanel_discussionUpload_editText_discussion">Discussion</string>
+    <string name="button_discussionUpload_update">Update</string>
+    <string name="button_discussionUpload_delet">Delete</string>
+    <string name="button_feedback_add">Add</string>
+
+
+</resources>

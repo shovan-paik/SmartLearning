@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PDFlistCompilerdesign"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="18dp"
+    android:paddingBottom="18dp"
+    android:background="@drawable/login_bacground_blue_gradient"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_compiler_principle"
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="#d40e25"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    >
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/compiler_princeples"
+                        android:paddingTop="3dp"
+                        android:background="#d40e25"
+                        />
+
+
+
+                    <TextView
+                        android:textAppearance="?android:textAppearanceListItemSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/compiler_principle"
+                        android:textStyle="normal"
+                        android:gravity="center"
+                        android:paddingTop="3dp"
+                        android:background="#d40e25"
+                        android:textColor="#fcfcfc"
+                        />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_principle_of_compiler"
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="#d40e25"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    >
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/compilers"
+                        android:paddingTop="3dp"
+                        android:background="#d40e25"
+                        />
+
+
+
+                    <TextView
+                        android:textAppearance="?android:textAppearanceListItemSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/principle_of_compiler"
+                        android:textStyle="normal"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:background="#d40e25"
+                        android:textColor="#fcfcfc"
+                        />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

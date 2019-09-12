@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".adminPanel_login_activity"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="18dp"
+    android:paddingBottom="18dp"
+    android:background="@drawable/login_bacground_blue_gradient"
+   >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alert:"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#7c0303"
+                android:gravity="center"
+                />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/admin_panel_instruction_text"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Menu" />
+
+
+
+
+            <EditText
+                android:id="@+id/etpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="5"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:hint="*****"
+                android:textColorHint="#fff"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/password_lock_white_24dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                />
+
+            <View
+                android:layout_width="110dp"
+                android:layout_height="1dp"
+                android:background="#f9d7db"
+                android:layout_gravity="center"
+                />
+
+
+            <Button
+                android:id="@+id/btlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/adminpanel_button_name_ok"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:padding="16dp"
+                android:clickable="true"
+                android:layout_marginTop="30dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:background="@drawable/register_button_background_blue"
+                />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:autoLink="email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Note: If you want to be a member of Admin Panel, you can send mail as shovanpaik93@gmail.com"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Menu"
+                android:layout_marginTop="20dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

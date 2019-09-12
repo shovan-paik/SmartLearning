@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PDFlistDatabase"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="18dp"
+    android:paddingBottom="18dp"
+    android:background="@drawable/login_bacground_blue_gradient"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_fundamental_of_database_1"
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="#d40e25"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    >
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/fundamental_of_database_system"
+                        android:paddingTop="3dp"
+                        android:background="#d40e25"
+                        />
+
+
+
+                    <TextView
+                        android:textAppearance="?android:textAppearanceListItemSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/fundamental_of_database_system"
+                        android:textStyle="normal"
+                        android:gravity="center"
+                        android:paddingTop="3dp"
+                        android:background="#d40e25"
+                        android:textColor="#fcfcfc"
+                        />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardview_fundamental_of_database_2"
+                android:layout_width="200dp"
+                android:layout_height="240dp"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="#d40e25"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    >
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/fundamental_of_database_system"
+                        android:paddingTop="3dp"
+                        android:background="#d40e25"
+                        />
+
+
+
+                    <TextView
+                        android:textAppearance="?android:textAppearanceListItemSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/fundamental_of_database_system"
+                        android:textStyle="normal"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:background="#d40e25"
+                        android:textColor="#fcfcfc"
+                        />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

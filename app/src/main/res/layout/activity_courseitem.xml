@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".courseitem"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="18dp"
+    android:paddingBottom="18dp"
+    android:background="@drawable/login_bacground_blue_gradient"
+    >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:orientation="vertical"
+       >
+
+
+
+       //first leanear layout
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:clipToPadding="false"
+           android:layout_gravity="center"
+           >
+           //java CardView
+           <android.support.v7.widget.CardView
+               android:id="@+id/cardview_javaId"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="200dp"
+               android:clickable="true"
+               android:layout_margin="10dp"
+               android:foreground="?android:attr/selectableItemBackground"
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:orientation="vertical"
+
+                   >
+                   <ImageView
+
+                       android:layout_width="match_parent"
+                       android:layout_height="150dp"
+                       android:src="@drawable/java"
+                       android:padding="10dp"
+
+                       />
+
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:layout_margin="0dp"
+                       android:background="@color/share_color_home"
+                       />
+
+                   <TextView
+                       android:textAppearance="?android:textAppearanceListItemSmall"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:text="Java"
+                       android:textStyle="normal"
+                       android:gravity="center_horizontal"
+                       android:layout_marginTop="5dp"
+
+                       />
+
+               </LinearLayout>
+
+
+           </android.support.v7.widget.CardView>
+
+           //Database cardview
+           <android.support.v7.widget.CardView
+               android:id="@+id/cardview_databaseId"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="200dp"
+               android:clickable="true"
+               android:layout_margin="10dp"
+               android:foreground="?android:attr/selectableItemBackground"
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:orientation="vertical"
+                   >
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="150dp"
+                       android:src="@drawable/database"
+                       android:padding="10dp"
+
+                       />
+
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:layout_margin="0dp"
+                       android:background="@color/share_color_home"
+                       />
+
+                   <TextView
+                       android:textAppearance="?android:textAppearanceListItemSmall"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_marginTop="5dp"
+                       android:text="Database"
+                       android:textStyle="normal"
+                       android:gravity="center_horizontal"
+                       />
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+       </LinearLayout>
+
+
+
+
+
+
+    //second leanear layout
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:clipToPadding="false"
+           android:layout_gravity="center"
+           >
+           //Cprogramming CardView
+           <android.support.v7.widget.CardView
+               android:id="@+id/cardview_cprogrammingId"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="200dp"
+               android:clickable="true"
+               android:layout_margin="10dp"
+               android:foreground="?android:attr/selectableItemBackground"
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:orientation="vertical"
+
+                   >
+                   <ImageView
+
+                       android:layout_width="match_parent"
+                       android:layout_height="150dp"
+                       android:src="@drawable/cprogramming"
+                       android:padding="10dp"
+
+                       />
+
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:layout_margin="0dp"
+                       android:background="@color/share_color_home"
+                       />
+
+                   <TextView
+                       android:textAppearance="?android:textAppearanceListItemSmall"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:text="C programming"
+                       android:textStyle="normal"
+                       android:gravity="center_horizontal"
+                       android:layout_marginTop="5dp"
+
+                       />
+
+               </LinearLayout>
+
+
+           </android.support.v7.widget.CardView>
+
+           //compiler design cardview
+           <android.support.v7.widget.CardView
+               android:id="@+id/cardview_compilerdesignId"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="200dp"
+               android:clickable="true"
+               android:layout_margin="10dp"
+               android:foreground="?android:attr/selectableItemBackground"
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:orientation="vertical"
+                   >
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="150dp"
+                       android:src="@drawable/compilerdesign"
+                       android:padding="10dp"
+
+                       />
+
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:layout_margin="0dp"
+                       android:background="@color/share_color_home"
+                       />
+
+                   <TextView
+                       android:textAppearance="?android:textAppearanceListItemSmall"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_marginTop="5dp"
+                       android:text="Compiler Design"
+                       android:textStyle="normal"
+                       android:gravity="center_horizontal"
+                       />
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+       </LinearLayout>
+
+
+
+
+
+
+       //third Linear layout
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:clipToPadding="false"
+           android:layout_gravity="center"
+           >
+           //Software Engineering CardView
+           <android.support.v7.widget.CardView
+               android:id="@+id/cardview_softwareengineeringId"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="200dp"
+               android:clickable="true"
+               android:layout_margin="10dp"
+               android:foreground="?android:attr/selectableItemBackground"
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:orientation="vertical"
+
+                   >
+                   <ImageView
+
+                       android:layout_width="match_parent"
+                       android:layout_height="150dp"
+                       android:src="@drawable/softwareengineering"
+                       android:padding="10dp"
+
+                       />
+
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:layout_margin="0dp"
+                       android:background="@color/share_color_home"
+                       />
+
+                   <TextView
+                       android:textAppearance="?android:textAppearanceListItemSmall"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:text="Software Engineering"
+                       android:textStyle="normal"
+                       android:gravity="center_horizontal"
+                       android:layout_marginTop="5dp"
+
+                       />
+
+               </LinearLayout>
+
+
+           </android.support.v7.widget.CardView>
+
+           //Data Communication cardview
+           <android.support.v7.widget.CardView
+               android:id="@+id/cardview_datacommunicationId"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="200dp"
+               android:clickable="true"
+               android:layout_margin="10dp"
+               android:foreground="?android:attr/selectableItemBackground"
+
+               >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:orientation="vertical"
+                   >
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="150dp"
+                       android:src="@drawable/datacommunication"
+                       android:padding="10dp"
+
+                       />
+
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:layout_margin="0dp"
+                       android:background="@color/share_color_home"
+                       />
+
+                   <TextView
+                       android:textAppearance="?android:textAppearanceListItemSmall"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_marginTop="5dp"
+                       android:text="Data Communication"
+                       android:textStyle="normal"
+                       android:gravity="center_horizontal"
+                       />
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+       </LinearLayout>
+
+
+
+
+
+   </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1737d4</color>
+    <color name="colorPrimaryDark">#1e24ca</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="background_color_home_activity">#40f7eb</color>
+    <color name="course_color_home">#1b9cd8</color>
+    <color name="profile_color_home">#e63273</color>
+    <color name="share_color_home">#1b47d8</color>
+    <color name="feedback_color_home">#df28e2</color>
+    <color name="aboutus_color_home">#197927</color>
+    <color name="logout_color_home">#8ac915</color>
+    <color name="Black_Edittext">#000</color>
+    <color name="button_text_color_under_course">#fcfcfc</color>
+</resources>

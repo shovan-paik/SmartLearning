@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".data_communication"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login_bacground_blue_gradient"
+    >
+
+
+    <Button
+        android:id="@+id/bt_pdf"
+        android:layout_width="@dimen/button_width_under_course"
+        android:layout_height="@dimen/button_height_under_course"
+        android:text="@string/pdf"
+        android:textAllCaps="false"
+        android:textSize="@dimen/button_text_size_under_course"
+        android:textColor="@color/button_text_color_under_course"
+        android:background="@drawable/custom_button"
+        />
+
+    <Button
+        android:id="@+id/bt_videotutorial"
+        android:layout_width="@dimen/button_width_under_course"
+        android:layout_height="@dimen/button_height_under_course"
+        android:text="@string/video_tutorial"
+        android:textAllCaps="false"
+        android:textSize="@dimen/button_text_size_under_course"
+        android:textColor="@color/button_text_color_under_course"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="@dimen/button_margin_top_under_courses"
+        />
+
+
+</LinearLayout>

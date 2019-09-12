@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:id="@+id/discussionUpload_et_NewTitleID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:hint="Enter new title"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:maxLines="1"
+                android:layout_marginTop="4dp"
+                android:textColorHint="#000"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"
+                />
+
+
+            <EditText
+                android:id="@+id/discussionUpload_et_NewDiscussionID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:hint="Enter new discussion"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_marginTop="4dp"
+                android:textColorHint="#000"
+                android:inputType="textMultiLine"
+                android:minLines="5"
+                android:gravity="top|start"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"
+                />
+
+
+            <Button
+                android:id="@+id/discussionUpload_button_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_discussionUpload_update"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:padding="16dp"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:background="@drawable/register_button_background_blue"
+                />
+
+            <Button
+                android:id="@+id/discussionUpload_button_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_discussionUpload_delet"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:padding="16dp"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:background="@drawable/register_button_background_blue"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
